@@ -1,7 +1,7 @@
 const wrapper = document.querySelector('div.container');
-let i = 1;
-do {
+let i=1;
+while (i < 256) {
     const div = document.createElement('div');
-    const append = wrapper.append(div);
-    i++
-} while (i < 256)
+    wrapper.append(div);
+    i++;
+}
