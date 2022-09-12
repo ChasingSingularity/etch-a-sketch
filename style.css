@@ -1,3 +1,14 @@
-.container{
+.container {
     display: grid;
+    grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(16, 20px);
+    justify-content: center;
+}
+
+.grid {
+    background-color: gray;
+}
+
+.color {
+    background-color: black;
 }
