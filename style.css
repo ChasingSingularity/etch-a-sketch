@@ -1,8 +1,18 @@
+:root {
+    --repeat: 10;
+}
+
+#btn {
+    display: block;
+    margin: auto;
+}
+
 .container {
+    margin: auto;
+    height: 500px;
+    width: 500px;
     display: grid;
-    grid-template-columns: repeat(16, 20px);
-    grid-template-rows: repeat(16, 20px);
-    justify-content: center;
+    grid-template-columns: repeat(var(--repeat), 1fr);
 }
 
 .grid {
